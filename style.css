@@ -123,6 +123,14 @@ nav{
 }
 
                                    /* Banner Style */
+.shape-style{
+    font-family: 'Miama';
+    font-style: italic;
+    font-weight: 900;
+    line-height: 120%;
+    src: local('Miama'), url('https://fonts.cdnfonts.com/s/302/Miama-Regular.woff') format('woff');
+}
+
 
 .banner{
     display: flex;
@@ -482,12 +490,95 @@ nav{
 
                                              /* Meet Our Team Style */
 
+.meet-team-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-top: 88px;
+    padding-bottom: 58px;
+
+}
+
 .meet-team{
     margin-bottom: 14px;
 }
 
 .meet-our-team{
-    margin-bottom: 58px;
+    /* padding-bottom: 58px; */
+}
+
+.trainer-name{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 550;
+    letter-spacing: 0%;
+    text-align: left;
+    position: relative;
+    top: 190px;
+    left: 20px;
+}
+
+.trainer{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 5px;
+    position: relative;
+    top: 168px;
+    left: 20px;
+}
+
+.jerome-bell{
+    width: 326px;
+    height: 272px;
+    background: url(images/trainer1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    border-radius: 18px;
+}
+
+.Cameron-Williams{
+    width: 326px;
+    height: 272px;
+    background: url(images/trainer2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.Darrell-Steward{
+    width: 326px;
+    height: 272px;
+    background: url(images/trainer3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    border-radius: 18px;
+}
+
+.Dianne-Russell{
+    background: url(images/trainer4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.Cody-Fisher{
+    width: 326px;
+    height: 272px;
+    background: url(images/trainer5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.Theresa-Webb{
+    width: 326px;
+    height: 272px;
+    background: url(images/trainer6.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 
