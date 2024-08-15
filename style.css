@@ -499,13 +499,24 @@ nav{
 .meet-team-img{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    margin-left: 150px;
-    margin-right: 150px;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 120px;
+    padding-right: 70px;
+
     border-radius: 18px;
 
     background: rgba(255, 255, 255, 0.1);
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 58px;
+}
 
+.meet-team-img img{
+   max-width: 272px;
+    height: 272px;
+    border-radius: 18px;
 }
 
 .meet-team{
@@ -519,77 +530,130 @@ nav{
 .trainer-name{
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 22px;
-    font-weight: 550;
+    font-size: 18px;
+    font-weight: 4800;
     letter-spacing: 0%;
     text-align: left;
-    position: relative;
-    top: 190px;
-    left: 20px;
+
 }
 
 .trainer{
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 350;
     text-align: left;
-    margin-top: 5px;
-    position: relative;
-    top: 168px;
-    left: 20px;
 }
 
 .jerome-bell{
-    width: 326px;
-    height: 272px;
-    background: url(images/trainer1.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    position: relative;
 
-    border-radius: 18px;
+}
+
+.bell-jer{
+    position: absolute;
+    left: 15px;
+    bottom: 32px;
+}
+
+.tranier-bell{
+    position: absolute;
+    left: 15px;
+    bottom: 8px;
 }
 
 .Cameron-Williams{
-    width: 326px;
-    height: 272px;
-    background: url(images/trainer2.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    position: relative;
+}
+
+.will-cam{
+    position: absolute;
+    left: 15px;
+    bottom: 32px; 
+}
+
+.trainer-cam{
+    position: absolute;
+    left: 15px;
+    bottom: 8px;
 }
 
 .Darrell-Steward{
-    width: 326px;
-    height: 272px;
-    background: url(images/trainer3.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    position: relative;
+}
 
-    border-radius: 18px;
+.dan-stew{
+    position: absolute;
+    left: 15px;
+    bottom: 32px; 
+}
+
+.trainer-dan{
+    position: absolute;
+    left: 15px;
+    bottom: 8px;
 }
 
 .Dianne-Russell{
-    background: url(images/trainer4.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    position: relative;
+}
+
+.russ-dan{
+    position: absolute;
+    left: 15px;
+    bottom: 32px; 
+}
+
+.trainer-russ{
+    position: absolute;
+    left: 15px;
+    bottom: 8px;
 }
 
 .Cody-Fisher{
-    width: 326px;
-    height: 272px;
-    background: url(images/trainer5.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    position: relative;
+}
+
+.fish-cody{
+    position: absolute;
+    left: 15px;
+    bottom: 32px; 
+}
+
+.trainer-cody{
+    position: absolute;
+    left: 15px;
+    bottom: 8px;
 }
 
 .Theresa-Webb{
-    width: 326px;
-    height: 272px;
-    background: url(images/trainer6.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    position: relative;
 }
 
+.web-there{
+    position: absolute;
+    left: 15px;
+    bottom: 32px; 
+}
+
+.trainer-web{
+    position: absolute;
+    left: 15px;
+    bottom: 8px;
+}
+
+
+
+.hidden{
+    text-align: center;
+    color: rgba(17, 17, 17);
+    background-color:rgba(17, 17, 17);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
 
 
 
@@ -710,7 +774,7 @@ footer h4{
     }
 
     .run-img img{
-        width: 470px;
+       max-width: 470px;
         height: 300px;
     }
 
@@ -755,6 +819,14 @@ footer h4{
 
     .footer-section{
         flex-direction: column;
+    }
+
+    .meet-team-img{
+        display: flex;
+        flex-direction: column;
+        margin: 10px auto;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
 
